@@ -2,18 +2,47 @@
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <title>웹카페 Web cafe</title>
+   <link rel="stylesheet" href="css/style.css">
+  <title>게시판</title>
 </head>
 <body>
-  <header></header>
-  <div class="title">제목</div>
-  <main class="main">게시판
-    <div class="group group1"></div>
-    <!-- <div class="group group2"></div>
-    <div class="group group3"></div> -->
-  </main>
-  <article class="slogan">슬로건</article>
+  <!-- header -->
+  <header>
+    <h1>
+      <a href="index.html">TEO's Board</a>
+    </h1>
+  </header>
+
+  <!-- contents -->
+  <div class="contents">
+    <!-- button+function -->
+   <div class="function"></div>
+   <!-- notice table -->
+   <table>
+     <tableHead>
+       <tr>
+         <th class="num">번호</th>
+         <th class="title">제목</th>
+         <th class="views">카운트</th>
+         <th class="user">이름</th>
+         <th class="date">날짜</th>
+       </tr>
+     </tableHead>
+     <tableBody>
+       <tr>
+         <td class="num">num</td>
+         <td class="title">title</td>
+         <td class="views">views</td>
+         <td class="user">user</td>
+         <td class="date">date</td>
+       </tr>
+     </tableBody>
+   </table>
+   <!-- numbering -->
+   <div class="numbering">페이지</div>
+  </div> 
+
+ <!--footer-->
   <div class="bg-footer">
     <footer class = "footer">푸터</footer>
   </div>

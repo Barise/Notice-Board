@@ -4,44 +4,25 @@
   margin: 0;
   padding: 0;
 }
-.header, .title, .main, .slogan, .footer{
-  background: #ff0;
-  width: 940px;
-  margin: 0 auto;
+
+table {
+  /* border-collapse: collapse; */
+  font-size:15pt;
+  border: 1px solid #181818;
 }
 
-.bg-footer{
-  background : purple;
-}
-/* 헤더 */
-.header{
-  position: relative;
-}
-
-/* 비주얼 */
-.title{
-  height: 120px;
-  background:red;
-}
-/* 메인 콘텐츠 */
-.main{
-  background: lime;
-  min-height: 450px;
-  display:flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+th,td {
+  padding-right:10px; 
+  width:120px;
+  height:30px;
+  border: 1px solid #181818;
 }
 
-.group1{
-  background: pink;
-  /* order: 1; */
+h1{
+  margin: 20px;
+  padding-left: 220px;
 }
-/* 
-.group2{
-  background: pink;
-  width:350px;
+
+td{
+  text-align: center;
 }
-.group3{
-  background: pink;
-  width:190px;
-} */
