@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+h1{
+  margin: 20px;
+  padding-left: 220px;
+}
+/* table */
 table {
   /* border-collapse: collapse; */
   font-size:15pt;
@@ -16,11 +21,6 @@ th,td {
   width:120px;
   height:30px;
   border: 1px solid #181818;
-}
-
-h1{
-  margin: 20px;
-  padding-left: 220px;
 }
 
 td{
